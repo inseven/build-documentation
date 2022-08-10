@@ -2,6 +2,12 @@
 
 ## GitHub Secrets
 
+- `APPLE_API_KEY`
+
+- `APPLE_API_KEY_ID`
+
+- `APPLE_API_KEY_ISSUER_ID`
+
 - `APPLE_DISTRIBUTION_CERTIFICATE_BASE64`
 
   Create this by base64 encoding the distribution certificate, as exported from Keychain Access:
