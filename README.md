@@ -7,6 +7,8 @@ It seems like macOS app (Catalist apps at the very least) require a separate Mac
 - Apple Distribution
 - Mac Installer Distribution
 
+Specifically, I _think_ macOS apps can be signed with the 'Apple Distribution' certificate but are submitted to the App Store by means of an installer which needs to be signed independently.
+
 ## Updating Certificates
 
 1. Create new certificates.
