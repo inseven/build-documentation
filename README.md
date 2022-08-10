@@ -2,7 +2,7 @@
 
 This describes the conventions used for versioning, building, and signing apps published by InSeven.
 
-## Versioning
+## Versions
 
 ### Build Numbers
 
