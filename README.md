@@ -1,5 +1,7 @@
 # Build Documentation
 
+This describes the conventions used for versioning, building, and signing apps published by InSeven.
+
 ## GitHub Secrets
 
 - `APPLE_API_KEY`
