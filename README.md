@@ -60,7 +60,7 @@ Builds use base64 encoded [PKCS 12](https://en.wikipedia.org/wiki/PKCS_12) certi
 Keychain Access can be used to export your certificate and private key in the PKCS 12 format, and the base64 encoded version is generated as follows:
 
 ```bash
-base64 build_certificate.p12 | pbcopy
+base64 -i "Apple Distribution InSeven Limited.p12" | pbcopy
 ```
 
 This, along with the password used to protect the certificate, can then be added to the GitHub project secrets.
@@ -75,7 +75,7 @@ This, along with the password used to protect the certificate, can then be added
 
   Create this by base64 encoding the distribution certificate, as exported from Keychain Access:
 
-  ```
+  ```bash
   base64 -i "Apple Distribution InSeven Limited.p12" | pbcopy
   ```
   
