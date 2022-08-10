@@ -1,5 +1,19 @@
 # Build Documentation
 
+## GitHub Secrets
+
+- `APPLE_DISTRIBUTION_CERTIFICATE_BASE64`
+
+  Create this by base64 encoding the distribution certificate, as exported from Keychain Access:
+
+  ```
+  base64 -i "Apple Distribution InSeven Limited.p12" | pbcopy
+  ```
+  
+- `APPLE_DISTRIBUTION_CERTIFICATE_PASSWORD`
+
+  The password used when exporting the distribution certificate.
+
 ## Certificate Requirements
 
 It seems like macOS app (Catalist apps at the very least) require a separate Mac Installer certificate to sign the app on export meaning that apps targeting both platforms require the following certificate types (names take from the developer portal):
