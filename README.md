@@ -53,7 +53,7 @@ openssl pkcs12 -info -nodes -in build_certificate.p12
 
 ## Builds
 
-## GitHub Secrets
+### GitHub Secrets
 
 - `APPLE_API_KEY`
 
