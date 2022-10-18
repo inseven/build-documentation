@@ -85,6 +85,14 @@ This, along with the password used to protect the certificate, can then be added
 
 ## Runners
 
+### Software
+
+Builds expect the following software to be installed:
+
+- Git
+- [GitHub CLI](https://cli.github.com) (via [Homebrew](https://brew.sh))
+- Xcode
+
 ### Environment Variables
 
 GitHub Actions runners are expected to define a number of environment variables:
