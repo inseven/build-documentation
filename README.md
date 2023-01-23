@@ -85,7 +85,9 @@ This, along with the password used to protect the certificate, can then be added
 
 ## Runners
 
-### Software
+### macOS
+
+#### Software
 
 Builds expect the following software to be installed:
 
@@ -93,9 +95,17 @@ Builds expect the following software to be installed:
 - [GitHub CLI](https://cli.github.com) (via [Homebrew](https://brew.sh))
 - Xcode
 
-### Environment Variables
+#### Environment Variables
 
 GitHub Actions runners are expected to define a number of environment variables:
 
 - `IOS_XCODE_PATH` -- path to the Xcode install to be used for iOS builds
 - `MACOS_XCODE_PATH` -- path to the Xcode install to be used for macOS builds
+
+### Raspbian
+
+#### Software
+
+Builds expect the following software to be installed:
+
+- [GitHub CLI](https://cli.github.com); installed from the downloaded Debian package
