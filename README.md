@@ -109,3 +109,4 @@ GitHub Actions runners are expected to define a number of environment variables:
 Builds expect the following software to be installed:
 
 - [GitHub CLI](https://cli.github.com); installed from the downloaded Debian package
+- [jq](https://github.com/jqlang/jq); installed via Homebrew
