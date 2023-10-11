@@ -12,12 +12,12 @@ The iOS and macOS apps use auto-generated build numbers that attempt to encode t
 YYmmddHHMMxxxxxxxx
 ```
 
-- `YY` -- two-digit year
-- `mm` -- month
-- `dd` -- day
-- `HH` -- hours (24h)
-- `MM` -- minutes
-- `xxxxxxxx` -- zero-padded integer representation of a 6-character commit SHA
+- `YY` – two-digit year
+- `mm` – month
+- `dd` – day
+- `HH` – hours (24h)
+- `MM` – minutes
+- `xxxxxxxx` – zero-padded integer representation of a 6-character commit SHA
 
 These can be quickly decoded using the `build-tools` script:
 
