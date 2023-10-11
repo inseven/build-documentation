@@ -83,6 +83,14 @@ This, along with the password used to protect the certificate, can then be added
 
   The password used when exporting the distribution certificate.
 
+- `MACOS_DEVELOPER_INSTALLER_CERTIFICATE_BASE64`
+
+  This is known by a number of different names across Apple's tooling, including 'Mac Installer Certificate', and '3rd Party Mac Developer Installer'.
+
+- `MACOS_DEVELOPER_INSTALLER_CERTIFICATE_PASSWORD`
+
+  The password used for the developer installer certificate.
+
 ## Runners
 
 ### macOS
