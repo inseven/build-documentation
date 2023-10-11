@@ -81,7 +81,7 @@ This, along with the password used to protect the certificate, can then be added
   
 - `APPLE_DISTRIBUTION_CERTIFICATE_PASSWORD`
 
-  The password used when exporting the distribution certificate.
+  The password used for the distribution certificate.
 
 - `MACOS_DEVELOPER_INSTALLER_CERTIFICATE_BASE64`
 
