@@ -106,6 +106,12 @@ Builds expect the following software to be installed:
 - [GitHub CLI](https://cli.github.com) (via [Homebrew](https://brew.sh))
 - Xcode
 
+The GitHub Actions runner uses the path in '~/actions-runner/.path'. This needs to be updated to include Homebrew and asdf:
+
+```
+/Users/jbmorley/.asdf/shims:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin
+```
+
 #### Environment Variables
 
 GitHub Actions runners are expected to define a number of environment variables:
@@ -113,7 +119,7 @@ GitHub Actions runners are expected to define a number of environment variables:
 - `IOS_XCODE_PATH`—path to the Xcode install to be used for iOS builds
 - `MACOS_XCODE_PATH`—path to the Xcode install to be used for macOS builds
 
-These are set in '~/actions-runner/.env'. For example,
+These are set in '~/actions-runner/.env':
 
 ```
 LANG=en_US.UTF-8
