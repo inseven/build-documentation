@@ -99,6 +99,9 @@ This, along with the password used to protect the certificate, can then be added
 
 Builds expect the following software to be installed:
 
+- asdf
+  - lua
+  - ruby
 - Git
 - [GitHub CLI](https://cli.github.com) (via [Homebrew](https://brew.sh))
 - Xcode
