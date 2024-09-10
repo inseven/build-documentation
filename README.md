@@ -113,6 +113,14 @@ GitHub Actions runners are expected to define a number of environment variables:
 - `IOS_XCODE_PATH` -- path to the Xcode install to be used for iOS builds
 - `MACOS_XCODE_PATH` -- path to the Xcode install to be used for macOS builds
 
+These are set in '~/actions-runner/.env'. For example,
+
+```
+LANG=en_US.UTF-8
+IOS_XCODE_PATH=/Applications/Xcode.app
+MACOS_XCODE_PATH=/Applications/Xcode.app
+```
+
 ### Raspbian
 
 #### Software
