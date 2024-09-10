@@ -110,8 +110,8 @@ Builds expect the following software to be installed:
 
 GitHub Actions runners are expected to define a number of environment variables:
 
-- `IOS_XCODE_PATH` -- path to the Xcode install to be used for iOS builds
-- `MACOS_XCODE_PATH` -- path to the Xcode install to be used for macOS builds
+- `IOS_XCODE_PATH`—path to the Xcode install to be used for iOS builds
+- `MACOS_XCODE_PATH`—path to the Xcode install to be used for macOS builds
 
 These are set in '~/actions-runner/.env'. For example,
 
