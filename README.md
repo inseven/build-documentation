@@ -126,6 +126,7 @@ These are set in '~/actions-runner/.env':
 LANG=en_US.UTF-8
 IOS_XCODE_PATH=/Applications/Xcode.app
 MACOS_XCODE_PATH=/Applications/Xcode.app
+DEFAULT_IPHONE_DESTINATION=platform=iOS Simulator,name=iPhone 16 Pro
 ```
 
 ### Raspbian
