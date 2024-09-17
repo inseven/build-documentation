@@ -118,6 +118,7 @@ GitHub Actions runners are expected to define a number of environment variables:
 
 - `IOS_XCODE_PATH`—path to the Xcode install to be used for iOS builds
 - `MACOS_XCODE_PATH`—path to the Xcode install to be used for macOS builds
+- `DEFAULT_IPHONE_DESTINATION`—details of the preferred iPhone simulator (e.g., 'iOS Simulator,name=iPhone 16 Pro')
 
 These are set in '~/actions-runner/.env':
 
