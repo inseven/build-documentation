@@ -107,10 +107,10 @@ Builds expect the following software to be installed:
 - [GitHub CLI](https://cli.github.com) (via [Homebrew](https://brew.sh))
 - Xcode
 
-The GitHub Actions runner uses the path in '~/actions-runner/.path'. This needs to be updated to include Homebrew and asdf:
+The GitHub Actions runner uses the path in '~/actions-runner/.path'. This needs to be updated to include Homebrew, asdf, and mise:
 
 ```
-/Users/jbmorley/.asdf/shims:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin
+/Users/jbmorley/.local/share/mise/shims:/Users/jbmorley/.asdf/shims:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin
 ```
 
 #### Environment Variables
